@@ -39,7 +39,7 @@ a {
   text-decoration: none;
 }
 
-a:link {
+.nav-bar > a:link {
   color: white;
 }
 
@@ -47,6 +47,6 @@ a:hover {
   text-decoration: underline;
 }
 
-a:visited {
+.nav-bar > a:visited {
   color: white;
 }

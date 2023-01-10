@@ -1,5 +1,7 @@
-#mid-website {
-    width: 100%;
-    aspect-ratio: 2 / 1;
-    border: 1px solid black;
+.write-up-link:link {
+    color: black;
+}
+
+.write-up-link:visited {
+    color: black;
 }
