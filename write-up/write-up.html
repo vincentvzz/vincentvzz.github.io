@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="./write-up.css" />
   </head>
   <body>
     <nav class="nav-bar">
@@ -10,5 +11,27 @@
       <a href="../cheatsheet/cheatsheet.html">Cheatsheet</a>
       <a href="./write-up.html">Write up</a>
     </nav>
+
+    <div class="container">
+      <div class="mp0">
+        <div>MP0 Write Up</div>
+        <div>
+          <div>Overview:</div>
+          <p>My initial thought is to make a pretty simple and clean website without too many complicated interactions. Therefore, I made all of my transitions between pages into a single navigation bar that will always appear on the top of the website. After built up the navigation bar, I checked the navigation link between pages, and then started thinking the brief structure of each page. For instance, the write up page has an architecture (besides navigation bar) from the container, to mp0 (assignment number), and details of the write up content. After settling down the structure and content, I started thinking about styles for my website. I put reusable css into the index.css and share the style sheet over pages so that I don't have to write duplicated styles. Also, I tried different google font families to get some insights. The screenshot is the website that I just finished the navigation bar.</p>
+          <img id="mid-website" src="../static/img/mp_constructing.png">
+          <div>Issue:</div>
+          <p>One problem that I faced is how I can insert the code snippet into my cheatsheet. I had a hard time thinking how I can style my text just like writing code in the VS Code. After some random web searching, I found that a combination of pre tag and code tag in HTML can perfectly solve the problem (as for now). Therefore, I used this technique in my cheatsheet page.</p>
+          <div>CSS Transition:</div>
+          <p>I tried one type of transition on the navigation bar that letting the underline appears while cursor hovering on the navigation bar text. The default of a tag is to change the color once the page link is visited. Therefore, I changed the styling there for keeping the same color after visited to make the color consistent.</p>
+          <img src="../static/img/css_transition.gif">
+          <div>Ideas and Future:</div>
+          <ol>
+            <li>I realized that I didn't do a good job on text hierarchy. I may need to develop a hierarchy system to make text looks better.</li>
+            <li>The html code for writing navigation bar is duplicated. May be in the future I can utilize javascript to write more reusable components.</li>
+            <li>For professional development, I can put my resume on this website. Also, I can put some contact information so that others can reach out to me if they find this website is interesting.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

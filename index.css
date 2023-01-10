@@ -15,7 +15,6 @@ body {
   width: 300px;
   border: 1px solid black;
   border-radius: 10px;
-  cursor: pointer;
   object-fit: cover;
   aspect-ratio: 1;
 }
