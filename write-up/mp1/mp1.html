@@ -17,7 +17,7 @@
           <div>Overview:</div>
           <p>This extension helps you quickly add the job description links to your list by giving them company names. You can download the whole list as a csv as you wish. I utilize click events to perform adding links to the list and download the whole list. I also use some google APIs to help temporarily store the data list in the browser.</p>
           <p>To use the extension, download the extension; then go to chrome://extensions, open developer mode, and load unpacked extension, which you need to select the file location of downloaded extension.</p>
-          <img src="../../static/img/css_transition.gif">
+          <img class="extension-gif" src="../../static/img/extension.gif">
           <div>Development Process:</div>
           <p>I first created a general extension file structure with the help of hello world demo code. I changed some css to make it look user-friendly. Then I started implementing the interaction part. I created the input textbox for typing company name as my primary step, followed by adding a button to add the current link to a data list. I used a google API for getting current tab's url. After that, I used another google API called chrome storage to make a local storage of a list of job urls that user adds so far. Finally, I added download button and implemented the download feature. I tested each feature individually to make sure that there is no functionality issues. Below is a screenshot of a non-appealing but functional extension (i.e. half-constructed extension).</p>
           <img id="mid-website" src="../../static/img/mp1_constructing.png">
@@ -26,7 +26,7 @@
           <div>Ideas and Future:</div>
           <ol>
             <li>More attributes can be added, such as job name, job level, etc.</li>
-            <li>Maybe we can add auto-search jobs and recommend these jobs to the user.</li>
+            <li>The current version is not so user friendly, may be I can add more interactions after user clicks buttons.</li>
             <li>User can preview the current job url list via extension.</li>
           </ol>
           <div>Kudos:</div>
