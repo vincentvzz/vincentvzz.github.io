@@ -5,3 +5,7 @@
 .write-up-link:visited {
     color: black;
 }
+
+.write-up-link {
+    text-decoration: underline;
+}
