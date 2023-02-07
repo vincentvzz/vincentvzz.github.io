@@ -8,7 +8,6 @@ function setup() {
     for (i = 0; i <= windowWidth; i += 20) {
       for (j = 0; j <= windowHeight; j += 20) {
         square(i + 10, j + 10, 10);
-        square(i + 10, j + 10, 10);
       }
     }
   }
