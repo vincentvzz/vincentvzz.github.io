@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="./mp1.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <a href="../write-up.html">Back to write up</a>
+    </nav>
+
+    <div class="container">
+      <div class="mp0">
+        <div>MP2 Write Up</div>
+        <a target="_blank" href="../../gallery/gallery.html">Gallery Link</a>
+        <div>
+          <div>Overview:</div>
+          <p>The galleries show 6 drawings that I made from simple to complex. I intended to make drawings focus more on interactions and fun by mimicing drawings as games. (Click gallery tab on the top to view gif and screenshot)</p>
+          <div>Development Process:</div>
+          <p>For the first three graphs, I made some simple geometries and movements as experiments to prepare for next three graphs. For the first graph, I made a nested loop to repeat drawing squares. For the second one, I added a random number in a condition statement so that it will show about 50% squares randomly throughout the canvas. For the third one, I added the movement for the square to bounce once hit the edges by controlling its movement both horizontally and vertically (let the movement times 1 or -1 to change directions).</p>
+          <p>For the fourth one, I tried to make a panel that can let user controls by tracking mouse position. It serves the same thing as edges in the third graph. For the fifth one, I just add a sound effect once user successfully bounces the circle by checking if the mouse position "hits" the center of the circle with certain error range (+/- several pixels).</p>
+          <p>For the sixth graph, I want to make a console that mimics gamepad, which user can control the movement of the circle. I also make this game similar to Gluttonous Snake, where user controls the circle to "eat" square and turn circle bigger. I utilize the "hits" functionality from the fifth graph, as well as reset the position of the circle once it hits the edges.</p>
+          <div>Issue:</div>
+          <p>One of the issues is how to handle the "hit" functionality. I first start by thinking some condition statement that need to check whether the mouse position is the same as the center of certain figures. Later I realized that it is pretty hard to check whether it works or not because the condition is too limited. Therefore, I made error ranges for hits to make it easier to be triggered.</p>
+          <div>Ideas and Future:</div>
+          <ol>
+            <li>I need to make the graphs/games more visual appealing.</li>
+            <li>I can add more different interactions to mimic Gluttonous Snake game, such as some ways that can make the player loses.</li>
+            <li>More sound effects is definitely needed to make the game more friendly, as currently I only use one sound effect.</li>
+          </ol>
+          <div>Kudos:</div>
+          <ul>
+            <li><a src="https://p5js.org/reference/">Reference Page of p5.js.</a> Most of my problems were solved by looking up this page.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
