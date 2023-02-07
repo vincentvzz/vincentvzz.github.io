@@ -46,7 +46,3 @@ function draw() {
   col = col + direction_v * (deltaTime / 10);
   circle(col, row, 50);
 }
-
-function mousePressed() {
-  hit.play();
-}
