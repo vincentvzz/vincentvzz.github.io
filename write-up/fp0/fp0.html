@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="./fp0.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <a href="../write-up.html">Back to write up</a>
+    </nav>
+
+    <div class="container">
+      <div class="mp0">
+        <div>FP0 Proposal</div>
+        <div>
+          <div>Description</div>
+          <p>I would like to build a job search website based on MP1 extension.</p>
+          <div>Interface</div>
+          <img id="mid-website" src="../../static/img/fp_sketch.jpeg">
+          <div>Prototype Version</div>
+          <p>The website should contains information that can let user knows what jobs the user has been marked and what are the status of these job application. Users can manually change the status, add, or delete jobs they are looking for. Also, login system is needed to record each user's information and their own job list.</p>
+          <div>Final Version</div>
+          <p>The UI of the website should be user friendly and consistent with the extension. The extension should also recognize the current user and perform add-job functionality.</p>
+          <div>Development Process</div>
+          <ol>
+            <li>Set up the basic UI to display job lists.</li>
+            <li>Implement user login/signup feature and show their own job lists if logged in.</li>
+            <li>Polish the website with more fascinating UI.</li>
+            <li>Implement login feature in job extension; also make the jobs added from job extension link back to the website.</li>
+          </ol>
+          <div>Things to explore</div>
+          <ol>
+            <li>I think I might need to explore firebase for data storage. I may also need to explore mysql database if firebase doesn't meet the requirement.</li>
+            <li>This is a multi-page project (login, job list display). Therefore, I am thinking to try React for frontend.</li>
+          </ol>
+          <div>Stretch Goals</div>
+          <ol>
+            <li>Job title and company can be web-scraped from job description link, instead of manually typing in.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
