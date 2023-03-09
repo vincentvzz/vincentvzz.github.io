@@ -12,27 +12,33 @@
     <div class="container">
       <div class="mp0">
         <div>FP0 Prototype Write Up</div>
-        <p><a target="_blank" href="https://github.com/vincentvzz/simple-viz">Code Link</a></p>
-        <p></p><a target="_blank" href="https://vincentvzz.github.io/simple-viz/">Site Link</a></p>
+        <p><a target="_blank" href="https://github.com/vincentvzz/job-search-website-prototype">Code Link</a></p>
+        <p></p><a target="_blank" href="https://vincentvzz.github.io/job-search-website-prototype/">Site Link</a></p>
         <div>
           <div>Overview:</div>
-          <p></p>
+          <p>This website provides a pretty simple view of what jobs users have saved, as well as adding new jobs.</p>
           <div>Development Process:</div>
-          <p></p>
-          <p></p>
-          <img id="mid-website" src="../../static/img/mp3_constructing.png">
-          <p></p>
-          <img id="data-viz-gif" src="../../static/img/mp3.gif">
+          <p>I first set up the database, then tried to make functions of logging in users first. After that, I worked on how to add jobs and update values in the database. I realized that the logging in system also needs to consider signing up. Therefore, I treat typing in new usernames as sign up and automatically create one document in the database.</p>
+          <img id="mid-website" src="../../static/img/fp0_prototype_mid.png">
+          <img id="data-viz-gif" src="../../static/img/fp0_prototype.gif">
           <div>Issues:</div>
-          <p></p>
+          <p>One of the biggest issues is to figure out the logic of changing data in firestore. I overcomed that difficulties by reading documentations and skimming some stackoverflow questions.</p>
           <div>Ideas and Future:</div>
           <ol>
+            <li>UI can be improved.</li>
+            <li>More functions such as delete jobs, or edit current job lists, can be added.</li>
           </ol>
           <div>Kudos:</div>
           <ul>
-            <li><a src="https://d3-graph-gallery.com/graph/barplot_basic.html">Huge thanks to this bar plot demo.</a> I get a lot of knowledge on code from d3's graph gallery.</li>
-            <li><a src="https://animejs.com/documentation/">Also thanks to animejs documentation.</a></li>
+            <li>Documentation of firestore.</li>
+            <li>Multiple pages of stackoverflow that talks about querying in firestore.</li>
           </ul>
+          <div>Project Scope</div>
+          <p>I decided to remove edition on my original extension, because I spent too much time on researching how to import firebase into the chrome extension and had a hard time implementing the module import (although I have written the logic of adding jobs to the database using the extension).</p>
+          <div>Time Management</div>
+          <p>I messed up a little bit of this part, as I have other projects due approximately at the same time period. Also, as I mentioned above, I didn't expect myself to spend too much time on module import issue. Maybe I should post that info in discord once I complete my new project scope.</p>
+          <div>Implementation Plan</div>
+          <p>Right now I will spend more time on polishing UI and thinking on more functionalities that are related to job search. Such changes are largely based on the changes made by project scope.</p>
         </div>
       </div>
     </div>
