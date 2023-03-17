@@ -50,3 +50,9 @@ a:hover {
 .nav-bar > a:visited {
   color: white;
 }
+
+@media (max-width: 600px) {
+  * {
+    font-size: 20px;
+  }
+}
