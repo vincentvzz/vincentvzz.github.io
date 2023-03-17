@@ -12,15 +12,15 @@
     <div class="container">
       <div class="mp0">
         <div>MP1 Write Up</div>
-        <a target="_blank" href="https://github.com/vincentvzz/job-search-extension">Code Link</a>
+        <a target="_blank" alt="link to mp1 code" href="https://github.com/vincentvzz/job-search-extension">Code Link</a>
         <div>
           <div>Overview:</div>
           <p>This extension helps you quickly add the job description links to your list by giving them company names. You can download the whole list as a csv as you wish. I utilize click events to perform adding links to the list and download the whole list. I also use some google APIs to help temporarily store the data list in the browser.</p>
           <p>To use the extension, download the extension; then go to chrome://extensions, open developer mode, and load unpacked extension, which you need to select the file location of downloaded extension.</p>
-          <img class="extension-gif" src="../../static/img/extension.gif">
+          <img class="extension-gif" alt="gif showing mp1" src="../../static/img/extension.gif">
           <div>Development Process:</div>
           <p>I first created a general extension file structure with the help of hello world demo code. I changed some css to make it look user-friendly. Then I started implementing the interaction part. I created the input textbox for typing company name as my primary step, followed by adding a button to add the current link to a data list. I used a google API for getting current tab's url. After that, I used another google API called chrome storage to make a local storage of a list of job urls that user adds so far. Finally, I added download button and implemented the download feature. I tested each feature individually to make sure that there is no functionality issues. Below is a screenshot of a non-appealing but functional extension (i.e. half-constructed extension).</p>
-          <img id="mid-website" src="../../static/img/mp1_constructing.png">
+          <img alt="constructing mp1" id="mid-website" src="../../static/img/mp1_constructing.png">
           <div>Issue:</div>
           <p>One issue about the extension while developing is to figure out how to make file download happen. I searched online and found that I need to use a class called Blob. After reading the code via Geeksforgeeks, I made some changes of that sample code to accomodate my dictionary of job urls so that it can form the csv structure that I want. Luckily, it worked once I finished the implementation.</p>
           <div>Ideas and Future:</div>
@@ -31,8 +31,8 @@
           </ol>
           <div>Kudos:</div>
           <ul>
-            <li><a target="_blank" href="https://www.geeksforgeeks.org/how-to-create-and-download-csv-file-in-javascript/">Geeksforgeeks: download in Javascript</a></li>
-            <li><a target="_blank" href="https://stackoverflow.com/questions/1979583/how-can-i-get-the-url-of-the-current-tab-from-a-google-chrome-extension">StackoverFlow: Chrome Extension API for getting current tab url</a></li>
+            <li><a target="_blank" alt="geeksforgeeks talking about how to download using javascript" href="https://www.geeksforgeeks.org/how-to-create-and-download-csv-file-in-javascript/">Geeksforgeeks: download in Javascript</a></li>
+            <li><a target="_blank" alt="stackoverflow post about how to get current tab url from chrome extension" href="https://stackoverflow.com/questions/1979583/how-can-i-get-the-url-of-the-current-tab-from-a-google-chrome-extension">StackoverFlow: Chrome Extension API for getting current tab url</a></li>
             <li>Hello-world extension demo code</li>
           </ul>
         </div>

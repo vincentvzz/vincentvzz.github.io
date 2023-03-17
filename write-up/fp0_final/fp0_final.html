@@ -12,26 +12,27 @@
     <div class="container">
       <div class="mp0">
         <div>FP0 Prototype Write Up</div>
-        <p><a target="_blank" href="https://github.com/vincentvzz/job-search-website-prototype">Code Link</a></p>
-        <p></p><a target="_blank" href="https://vincentvzz.github.io/job-search-website-prototype/">Site Link</a></p>
+        <p><a target="_blank" alt="link to the fp final version code" href="https://github.com/vincentvzz/job-search-website-final/">Code Link</a></p>
+        <p></p><a target="_blank" alt="link to the fp final version website"href="https://vincentvzz.github.io/job-search-website-final/">Site Link</a></p>
         <div>
           <div>Overview:</div>
           <p>This website provides a pretty simple view of what jobs users have saved, as well as adding new jobs and deleting jobs.</p>
           <div>Development Process:</div>
-          <p>I first set up the database, then tried to make functions of logging in users first. After that, I worked on how to add jobs and update values in the database. I realized that the logging in system also needs to consider signing up. Therefore, I treat typing in new usernames as sign up and automatically create one document in the database.</p>
-          <img id="mid-website" src="../../static/img/fp0_prototype_mid.png">
-          <img id="data-viz-gif" src="../../static/img/fp0_prototype.gif">
+          <p>Based on the prototype, I polished a little bit for the website UI, especially for the job list. Also, I added delete job functionality by binding events on dynamic elements "delete", which is generated through lint-html.</p>
+          <img id="mid-website" alt="constructing final project final version" src="../../static/img/fp0_final_constructing.png">
+          <img id="data-viz-gif" alt="gif showing how to use final version" src="../../static/img/fp0_final.gif">
           <div>Issues:</div>
-          <p>One of the biggest issues is to figure out the logic of changing data in firestore. I overcomed that difficulties by reading documentations and skimming some stackoverflow questions.</p>
+          <p>The main issue is on the UI, where I would like to add some color for each data entry. Therefore, I did a little research on how to make interphase colors between rows. I got the result that an easy css can accomplish that task. I also include that in my cheatsheet.</p>
           <div>Ideas and Future:</div>
           <ol>
-            <li>UI can be improved.</li>
-            <li>More functions such as delete jobs, or edit current job lists, can be added.</li>
+            <li>More functionalities, especially edit current job lists.</li>
+            <li>Can be more interactive with the job description link. E.g., automatically get information based on the job description link.</li>
+            <li>A more secure login/sign up way should be utilized.</li>
           </ol>
           <div>Kudos:</div>
           <ul>
-            <li>Documentation of firestore.</li>
-            <li>Multiple pages of stackoverflow that talks about querying in firestore.</li>
+            <li>Kudos to all of the css documentation online (and chatgpt for giving me advice on css grid).</li>
+            <li><a alt="an article talking about binding events on dynamic elements" href="https://typeofnan.dev/how-to-bind-event-listeners-on-dynamically-created-elements-in-javascript/">An article talking about binding events on dynamic elements.</a></li>
           </ul>
         </div>
       </div>

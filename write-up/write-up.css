@@ -8,4 +8,11 @@
 
 .write-up-link {
     text-decoration: underline;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
 }
